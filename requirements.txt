@@ -1,0 +1,1 @@
+anaconda-navigator==2.3.2
