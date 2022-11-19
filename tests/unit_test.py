@@ -1,3 +1,8 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
 
 import unittest
 import test_case
@@ -6,7 +11,7 @@ import floyd_imperative
 
 #Perform unit test for comparing the result between recursive and imperative versions of Floyd's algorithm
 
-class Test_floyd(unittest.TestCase):
+class Test_recursive(unittest.TestCase):
       
     def test1(self):
         
@@ -34,3 +39,16 @@ class Test_floyd(unittest.TestCase):
                 
 if __name__ == '__main__':
     unittest.main(argv=['first-arg-is-ignored'], exit=False)
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
