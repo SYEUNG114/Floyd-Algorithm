@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import itertools
 
 """This is imperative version of Floyd's algorithm given by the assignment"""
@@ -20,34 +14,3 @@ def floyd(distance):
         distance[start_node][end_node] = min(distance[start_node][end_node],
         distance[start_node][intermediate] + distance[intermediate][end_node] )
     return distance
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
