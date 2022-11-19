@@ -1,7 +1,7 @@
 + Floyd-Algorithm/
     • README.md
     • requirements.txt
-   + functions/
+   + floyd_algo/
        • floyd_imperative.py
        • floyd_recursive.py
    + tests/
