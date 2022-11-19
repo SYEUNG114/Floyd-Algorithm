@@ -1,17 +1,7 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import test_case
 import floyd_recursive
 import floyd_imperative
 import time
-
-
-# In[10]:
-
 
 test = [test_case.test1, test_case.test2, test_case.test3, test_case.test4, test_case.test5, test_case.test6]
 
@@ -38,40 +28,3 @@ for i in test:
     execution_time = end_time - start_time
     print(f"The execution time of test{number} is : {execution_time:.10f}s")
     number += 1
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
