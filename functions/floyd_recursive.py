@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import itertools
 
 """This is recursive version of Floyd's algorithm which is modified by the given example."""
@@ -24,46 +18,3 @@ def floyd(distance):
         #return all possible paths and find the minimum
         distance[start_node][end_node] = recursive(start_node,end_node,intermediate)
     return distance
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
